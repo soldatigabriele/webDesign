@@ -1,0 +1,13 @@
+{
+    "name": "gabri/portfolio",
+    "authors": [
+        {
+            "name": "Gabriele Soldati",
+            "email": "soldati.gabriele@gmail.com"
+        }
+    ],
+    "require": {
+    	"facebook/php-sdk-v4":"^5.1",
+    	"guzzlehttp/guzzle":"^5.3"
+    }
+}

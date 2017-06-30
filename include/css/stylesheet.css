@@ -1,0 +1,346 @@
+body {
+    font-weight: 100;
+    font-family: 'Lato';
+}
+
+.flickrImg {
+    opacity: 0.7;
+}
+
+p {
+    font-size: 26px;
+}
+
+.image {
+    height: 250px;
+    width: 100%;
+}
+
+.page {
+    margin-top: 50px;
+    padding-bottom:0px;
+}
+
+a:link{color:lightslategray;text-decoration:none;outline:0;}
+a:hover{ color:lightslategray; text-decoration:none;}
+a:visited{color:lightslategray;}
+a:active{color:lightslategray;text-decoration:none;}
+.header {
+    height: 50px;
+    background: white;
+    color:lightslategray;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    margin: 0px auto;
+    font-size: 26px;
+    text-align: center;
+    z-index: 1;
+}
+
+.firstImage {
+    height: 100vh;
+    width: 100%;
+    background: white;
+}
+
+.title {
+    font-size: 64px;
+}
+
+.content {
+    width: 90%;
+    text-align: center;
+    display: inline-block;
+    /*padding: 25px 100px 0px 100px;*/
+}
+
+.description {
+    vertical-align: middle;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.frameworkDescription{
+    vertical-align: middle;
+    margin-top: 10%;
+    margin-left:150px;
+}
+.frameworkTitle{
+    font-size:64px;
+    margin-left:150px;
+}
+.titleWorks{
+    font-size:64px;
+    margin-top:30px;
+}
+.workImage{
+    height: 20vh;
+    height:220px;
+border: 1px #acacac solid;
+}
+.imageLink{
+    width:360px;
+    align:auto;
+}
+.workImage>img{
+    /*max-height:200px;*/
+
+    vertical-align: middle;
+    /*display: block;*/
+
+    width:100%;
+    height:100%;
+}
+.websites{
+    padding:30px 100px 0px 100px;
+    max-width: 1280px;
+}
+#content_frameworks {
+    margin-top: 5%;
+    height: 95vh;
+    width:100%;
+    background-image: url("../../img/bg2.png");
+    background-size:90% ;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+#content_about {
+    height: 95vh;
+    width: 100%;
+    margin-top: 5%;
+    background-image: url("../../img/bg1.png");
+    background-size:100%;
+    background-position: bottom;
+    background-repeat:no-repeat;
+}
+
+#content_web {
+    height: 100vh;
+    width: 100%;
+    font-size: 24px;
+    margin-top: 3%;
+}
+
+#content_works{
+    height:80vh;
+    /*height:800px;*/
+    margin-top: 2%;
+    width:100%;
+
+}
+
+#content_flickr {
+    margin-top:3%;
+    width:100%
+    /*min-height: 400px;*/
+}
+
+#content_contacts {
+    background: lightslategray;
+    font-size: 20px;
+    color: white;
+    min-height: 100px;
+    max-height:10hv;
+    margin-top: 50px;
+    padding-top: 15px;
+    width:100%;
+    /*position: inherit;*/
+    /*padding-top:30px;*/
+    /*bottom: 0px;*/
+}
+.images {
+    position: relative;
+    margin-top: 30%;
+}
+.logos{
+    padding-bottom:10%;
+    bottom:0px;
+    position:absolute;
+}
+/*responsive images*/
+@media only screen and (max-width: 1000px){
+    .images{
+        display:none;
+    }
+}
+@media only screen and (max-width: 1150px){
+    .
+}
+.copyright {
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.img {
+    width: 100px;
+}
+
+.img-circle {
+    width: 100px;
+    htight: 100px;
+}
+
+/*Flickr images*/
+.imageThumbnail {
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.transparent {
+    opacity: 0.1;
+}
+
+/* set the wall images */
+#wall_about {
+    background: url('../../img/7.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#wall_frameworks {
+    background: url('../../img/4.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#wall_web {
+    background: url('../../img/13.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#wall_works{
+    background:url('../../img/8.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+}
+
+
+#wall_flickr {
+    background: url('../../img/14.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.photo-grid {
+    margin: 1em auto;
+    padding-top: 80px;
+    max-width: 1106px;
+    text-align: center;
+}
+
+.photo-grid li {
+    border: 5px solid white;
+    display: inline-block;
+    margin: 1em;
+    width: 289px;
+}
+
+.photo-grid img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.photo-grid figure {
+    height: 163px;
+    overflow: hidden;
+    position: relative;
+    width: 289px;
+}
+
+.photo-grid figcaption {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    display: table;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.photo-grid figcaption p {
+    display: table-cell;
+    font-size: 1.5em;
+    position: relative;
+    top: -40px;
+    width: 289px;
+    vertical-align: middle;
+}
+
+.photo-grid li:hover figcaption {
+    opacity: 1;
+}
+
+.photo-grid img {
+    display: block;
+    /*height: auto;*/
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    max-width: 100%;
+}
+
+.photo-grid li:hover img {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.photo-grid figcaption p {
+    display: table-cell;
+    font-size: 1.5em;
+    position: relative;
+    top: -40px;
+    width: 289px;
+    -webkit-transition: all 300ms ease-out;
+    -moz-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+    vertical-align: middle;
+}
+
+.photo-grid li:hover figcaption p {
+    -moz-transform: translateY(40px);
+    -webkit-transform: translateY(40px);
+    transform: translateY(40px);
+}
+
+.photo-grid figcaption {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    display: table;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    transition: all 300ms;
+    -webkit-transition-delay: 100ms;
+    -moz-transition-delay: 100ms;
+    transition-delay: 100ms;
+    z-index: 100;
+}
+
+
+
+
+
+
+
+
+
